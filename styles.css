@@ -1,0 +1,123 @@
+/* Reset page spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main page styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #2b3d52;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    line-height: 1.6;
+}
+
+/* Background image */
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("background.png");
+
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+
+    z-index: -1;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Profile image */
+header img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #4f83b5;
+    margin-bottom: 20px;
+}
+
+/* Main heading */
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #24476b;
+}
+
+/* Section cards */
+section {
+    background-color: rgba(255, 255, 255, 0.92);
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Section titles */
+h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d4d4d4;
+    padding-bottom: 10px;
+    color: #24476b;
+}
+
+/* Smaller headings */
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #4f83b5;
+}
+
+/* Paragraphs and list items */
+p,
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Skills lists */
+ul {
+    margin-left: 25px;
+}
+
+/* Links */
+a {
+    color: #4f83b5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.code-image {
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+}
